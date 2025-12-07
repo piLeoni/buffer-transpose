@@ -1,0 +1,32 @@
+{
+  "name": "buffer-transpose",
+  "version": "1.0.0",
+  "description": "Efficiently transpose Buffers representing 2D matrices (1-bit packed or 8-bit).",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "npm run build && node test.js"
+  },
+  "keywords": [
+    "buffer",
+    "transpose",
+    "matrix",
+    "bitmap",
+    "1-bit",
+    "monochrome",
+    "oled",
+    "vfd",
+    "graphics"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "typescript": "^5.7.3"
+  }
+}
