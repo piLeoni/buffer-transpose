@@ -1,6 +1,6 @@
 {
   "name": "buffer-transpose",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Efficiently transpose Buffers representing 2D matrices (1-bit packed or 8-bit).",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
