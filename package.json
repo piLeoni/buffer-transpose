@@ -12,6 +12,10 @@
     "prepublishOnly": "npm run build",
     "test": "npm run build && node test.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piLeoni/buffer-transpose.git"
+  },
   "keywords": [
     "buffer",
     "transpose",
@@ -23,8 +27,12 @@
     "vfd",
     "graphics"
   ],
-  "author": "",
+  "author": "Pietro Leoni",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/piLeoni/buffer-transpose/issues"
+  },
+  "homepage": "https://github.com/piLeoni/buffer-transpose#readme",
   "devDependencies": {
     "@types/node": "^22.13.5",
     "typescript": "^5.7.3"
